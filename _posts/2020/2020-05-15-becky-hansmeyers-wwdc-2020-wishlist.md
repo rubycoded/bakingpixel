@@ -1,6 +1,6 @@
 ---
 id: 6182
-title: 'Becky Hansmeyer&#8217;s WWDC 2020 Wishlist'
+title: Becky Hansmeyer's WWDC 2020 Wishlist
 date: 2020-05-15T15:16:11+01:00
 author: Jenxi
 layout: post

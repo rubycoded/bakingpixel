@@ -249,7 +249,7 @@
   }
 }
 
-.excerpt-more {
+.excerpt-more, .previous, .next {
 		display: block;
 		border: none;
 		font-size: $base-font-size * 1.2;
@@ -435,25 +435,7 @@
  * Pagination navbar
  */
 .pagination {
-  margin-bottom: $spacing-unit;
-  @extend .social-media-list;
-  li {
-    a, div {
-      min-width: 41px;
-      text-align: center;
-      box-sizing: border-box;
-    }
-    div {
-      display: block;
-      padding: $spacing-unit / 4;
-      border: 1px solid transparent;
-
-      &.pager-edge {
-        color: $border-color-01;
-        border: 1px dashed;
-      }
-    }
-  }
+	text-align: center;
 }
 
 
@@ -476,12 +458,16 @@
 
 
 @media (prefers-color-scheme: dark) {
-	body, a, a:hover, a:visited, blockquote, .site-title, .site-nav, .site-nav .page-link, .post-title, .excerpt-more, .tags a, table {
+	body, a, a:hover, a:visited, blockquote, .site-title, .site-nav, .site-nav .page-link, .post-title, .excerpt-more, .previous, .next, .tags a, table {
 		color: #f7eef4;
 		background-color: #242324;
 	}
 	
-	.post-meta, .excerpt-more:hover {
+	.code, .pre {
+		background-color: #111;
+	}
+	
+	.post-meta, .excerpt-more:hover, .previous:hover, .next:hover {
 		color: #ff00b4;
 	}
 	
