@@ -29,6 +29,7 @@ $on-large:         $on-laptop !default;
 $border-large:     4px;
 $border-medium:    2px;
 $border-small:     1px;
+$border-corner:		 8px; 
 
 // Use media queries like this:
 // @include media-query($on-palm) {

@@ -10,7 +10,6 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
-
 }
 
 
@@ -86,11 +85,11 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
+ul, ol, dd {
   margin-left: $spacing-unit;
 }
 
-li {
+li, dt, dd {
 	line-height: $base-line-height * 1.2;
 
   > ul,
@@ -99,6 +98,9 @@ li {
   }
 }
 
+dd {
+	margin-bottom: $spacing-unit * 0.5;
+}
 
 
 /**
@@ -206,9 +208,10 @@ blockquote {
 pre,
 code {
   font-family: $code-font-family;
-  font-size: 0.9375em;
-  border-radius: 3px;
+  font-size: $base-font-size * 0.92;
+	border-radius: $border-corner;
   background-color: $code-background-color;
+  margin-bottom: $spacing-unit * 1;
 }
 
 code {

@@ -15,14 +15,22 @@
 	height: 60px;
 	width: 60px;
 	border: 0;
+	vertical-align: top;
+	margin-bottom: $spacing-unit * 0.5;
 	
-	&:hover {
+	a, a:hover {
 		border: 0;
 	}
-	
 }
 
-.site-title,
+.site-title {
+	display: inline-block;
+	
+	a, a:hover {
+		border: 0;
+	}
+}
+
 .site-description {
   border: 0;
 	clip: rect(0,0,0,0);
@@ -49,11 +57,11 @@
     width: 36px;
     height: 26px;
     line-height: 0;
-    padding-top: 10px;
+    padding-top: 24px;
     text-align: center;
 
     > svg path {
-      fill: $border-color-03;
+      fill: $text-color;
     }
   }
 
@@ -73,6 +81,7 @@
 
   input:checked ~ .trigger {
     display: block;
+    padding-top: 30px;
     padding-bottom: 5px;
   }
 
@@ -235,6 +244,7 @@
   margin-bottom: $spacing-unit * 0.5;
   
   .author a {
+  	padding-left: $spacing-unit;
   	border: none;
   }
 }
@@ -252,7 +262,7 @@
 		}
 }
 
-.post-tags {
+.tags {
 	display: flex;
 	margin: 0;
 	padding: 0;
@@ -306,10 +316,14 @@
 
 .post-title,
 .post-content h1 {
-  @include relative-font-size(2.625);
+  @include relative-font-size(2);
   font-weight: $bold-font-weight;
   letter-spacing: -1px;
   line-height: 1.15;
+  
+	@media screen and (min-width: $on-large) {
+		@include relative-font-size(2.25);
+	}
   
   a {
   	border: none;
@@ -357,8 +371,19 @@
   	margin-bottom: $spacing-unit;
   }
   
+  dt {
+		font-weight: $bold-font-weight;
+	}
+  
 }
 
+.message {
+	background-color: $code-background-color;
+	margin-bottom: $spacing-unit;
+	padding: $spacing-unit * 0.5;
+	border-radius: $border-corner;
+	opacity: 0.7;
+}
 
 .social-media-list {
   display: table;
@@ -376,6 +401,34 @@
   }
 }
 
+
+/**
+ * Archives
+ */
+.archive-title {
+	font-weight: $bold-font-weight;
+	text-transform: uppercase;
+}
+
+.archive-list, .tag-list {
+	padding-bottom: $spacing-unit * 0.5;
+	margin-left: 0;
+	
+	li {
+		list-style-type: none;
+	}
+
+	.archive-link {
+		border: none;
+	}
+	
+	.date {
+		display: inline-block;
+		font-size: $small-font-size;
+		padding-left: $spacing-unit;
+		opacity: 0.7;
+	}
+}
 
 
 /**
@@ -423,7 +476,7 @@
 
 
 @media (prefers-color-scheme: dark) {
-	body, a, a:hover, a:visited, blockquote, .site-nav .page-link, .post-title, .excerpt-more, .post-tags a {
+	body, a, a:hover, a:visited, blockquote, .site-title, .site-nav, .site-nav .page-link, .post-title, .excerpt-more, .tags a, table {
 		color: #f7eef4;
 		background-color: #242324;
 	}
@@ -432,8 +485,17 @@
 		color: #ff00b4;
 	}
 	
-	a, a:hover, a:visited, blockquote, .site-nav .page-link, .post-tags a {
+	a, a:hover, a:visited, blockquote, .site-nav .page-link, .tags a {
 		border-color: #ff00b4;
 	}
+	
+	hr {
+		background: #f7eef4;
+		box-shadow: 30px 0 0 0 #f7eef4, -30px 0 0 0 #f7eef4;
+	}
+	
+	.site-nav .menu-icon > svg path {
+      fill: #f7eef4;
+    }
 	
 }
