@@ -1,0 +1,13 @@
+<header class="site-header">
+  <div class="wrapper">
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
+    <a class="site-logo" rel="home" href="{{ "/" | relative_url }}">
+      <img src="/assets/images/bakingpixel-button.png" alt="BakingPixel logo">
+    </a>
+    <h1 class="site-title">{{ site.title | escape }}</h1>
+    <p class=site-description>{{ site.description | escape }}</p>
+      {%- include header-navigation.html -%}
+  </div>
+</header>

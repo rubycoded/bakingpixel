@@ -1,7 +1,5 @@
 ---
-id: 8
 title: About Matt
-date: 2013-11-01T13:29:35+00:00
 author: Jenxi
 layout: page
 permalink: /matt/

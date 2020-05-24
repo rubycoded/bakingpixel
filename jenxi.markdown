@@ -1,7 +1,5 @@
 ---
-id: 10
 title: About Jenxi
-date: 2013-11-01T14:15:58+00:00
 author: Jenxi
 layout: page
 permalink: /jenxi/
