@@ -16,7 +16,7 @@ title: Home
     <a class="excerpt-more" href="{{ post.url }}">Continue Reading »</a>
 		<ul class="post-tags">
 			{% for tag in post.tags %}
-			<li><a href="/tag/{{ tag }}/">{{ tag }}</a></li>
+			<li><a href="/tag/{{ tag | replace:" ","-" }}/">{{ tag}}</a></li>
 			{% endfor %}
 		</ul>
   </div>
