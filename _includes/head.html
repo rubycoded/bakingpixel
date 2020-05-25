@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {%- seo -%}
+  <meta property="og:image" content="{{ seo_tag.image.path }}" />
   <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
   {%- feed_meta -%}
   {%- include google-analytics.html -%}
@@ -15,5 +16,4 @@
   <meta name="msapplication-TileColor" content="#2a8a15">
   <meta name="msapplication-config" content="/assets/images/icons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">  
-	<link href='http://fonts.googleapis.com/css?family={{ page.googlewebfonts }}'>
 </head>

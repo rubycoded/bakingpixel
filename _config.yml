@@ -21,15 +21,14 @@
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bakingpixel.com" # the base hostname & protocol for your site, e.g. http://example.com
 
+## SEO settings
 title: BakingPixel
 email: contact@bakingpixel.com
 description: >- # this means to ignore newlines until next value
   Baked Fresh. Served in Pixels. BakingPixel is a commentary site run by Matt and Jenxi. They focus on tech and business related news.
 logo: /assets/images/bakingpixel-button.png
-image:
+image: 
   path: /assets/images/bakingpixel-cover.png
-  height: 630
-  width: 1200
 social:
   name: BakingPixel
   links:
@@ -37,14 +36,14 @@ social:
     - https://twitter.com/bakingpixel
     - https://github.com/rubycoded
 facebook:
+  app_id: 257116225407580
   publisher: https://www.facebook.com/bakingpixel
 twitter:
   username: bakingpixel
   card: summary
+google_analytics: UA-2290635-10
 
 # Build settings
-google_analytics: UA-2290635-10
-googlewebfonts: Poppins
 paginate: 10
 permalink: pretty
 excerpt_separator: <!--more-->
