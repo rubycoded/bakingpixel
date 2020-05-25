@@ -11,7 +11,8 @@ title: Home
 		{%- if page.author -%}
 			{% for author in page.author %}
   	// <span class="author"><a href="/{{ post.author | downcase }}/">{{ post.author }}</a></span>
-
+			{% endfor %}
+	  {% endif %}
   </p>
   <div class="post-content">
 		{% if post.content contains '<!--more-->' %}
