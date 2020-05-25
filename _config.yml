@@ -29,6 +29,8 @@ description: >- # this means to ignore newlines until next value
 logo: /assets/images/bakingpixel-button.png
 image: 
   path: https://bakingpixel.com/assets/images/bakingpixel-cover.png
+  height: 630
+  width: 1200
 social:
   name: BakingPixel
   links:
