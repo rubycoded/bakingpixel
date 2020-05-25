@@ -319,7 +319,7 @@
   @include relative-font-size(2);
   font-weight: $bold-font-weight;
   letter-spacing: -1px;
-  line-height: 1.15;
+  line-height: 1.3;
   
 	@media screen and (min-width: $on-large) {
 		@include relative-font-size(2.25);
