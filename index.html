@@ -8,8 +8,8 @@ title: Home
   <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
   <p class="post-meta">
     <span class="date">{{ post.date | date: "%-d %B %Y" }} </span>
-		{%- if page.author -%}
-			{% for author in page.author %}
+		{%- if post.author -%}
+			{% for author in post.author %}
   	// <span class="author"><a href="/{{ post.author | downcase }}/">{{ post.author }}</a></span>
 			{% endfor %}
 	  {% endif %}
