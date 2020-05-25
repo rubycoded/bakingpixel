@@ -18,12 +18,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: BakingPixel
-email: contact@bakingpixel.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Baked Fresh. Served in Pixels.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bakingpixel.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+title: BakingPixel
+email: contact@bakingpixel.com
+description: >- # this means to ignore newlines until next value
+  Baked Fresh. Served in Pixels. BakingPixel is a commentary site run by Matt and Jenxi. They focus on tech and business related news.
+logo: /assets/images/bakingpixel-button.png
+image:
+  path: /assets/images/bakingpixel-cover.png
+  height: 630
+  width: 1200
+social:
+  name: BakingPixel
+  links:
+    - https://www.facebook.com/bakingpixel
+    - https://twitter.com/bakingpixel
+    - https://github.com/rubycoded
+facebook:
+  publisher: https://www.facebook.com/bakingpixel
+twitter:
+  username: bakingpixel
+  card: summary
 
 # Build settings
 google_analytics: UA-2290635-10
