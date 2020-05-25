@@ -32,9 +32,11 @@ googlewebfonts: Poppins
 paginate: 10
 permalink: pretty
 permalink: /:tag/:title/
+show_excerpts: false
+
 
 jekyll-tagging: 
-  tag_page_dir: tags
+  tag_page_dir: tag
 
 # Defaults
 
