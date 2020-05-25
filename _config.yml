@@ -24,19 +24,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Baked Fresh. Served in Pixels.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bakingpixel.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bakingpixel
 
 # Build settings
 google_analytics: UA-2290635-10
 googlewebfonts: Poppins
 paginate: 10
 permalink: pretty
-permalink: /:tag/:title/
-show_excerpts: false
-
+excerpt_separator: <!--more-->
 
 jekyll-tagging: 
-  tag_page_dir: tag
+  tag_page_dir: tags
 
 # Defaults
 
