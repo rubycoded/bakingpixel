@@ -22,8 +22,8 @@ title: BakingPixel
 email: contact@bakingpixel.com
 description: >- # this means to ignore newlines until "baseurl:"
   Baked Fresh. Served in Pixels.
-baseurl: "/bakingpixel" # the subpath of your site, e.g. /blog
-url: "https://rubycoded.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bakingpixel.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: bakingpixel
 
 # Build settings
