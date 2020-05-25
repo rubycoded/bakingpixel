@@ -2,7 +2,7 @@
 title: Post title
 author: Jenxi
 layout: post
-tags: space separated tags
+tags: [comma, separated, tags]
 ---
 [Source](/url/):
 

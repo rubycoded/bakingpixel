@@ -2,7 +2,7 @@
 title: Jekyll and GitHub Pages
 author: Jenxi
 layout: post
-tags: bakingpixel jekyll "github pages"
+tags: [bakingpixel, jekyll, github pages]
 ---
 BakingPixel is now on Jekyll hosted on GitHub Pages! Since this is now a static site, you should see a massive boost in performance.
 
