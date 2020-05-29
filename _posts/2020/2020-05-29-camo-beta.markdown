@@ -1,0 +1,19 @@
+---
+title: Camo Beta
+author: Jenxi
+layout: post
+tags: [facetime,iphone,macbook,video calls]
+---
+[Michael Tsai](https://mjtsai.com/blog/2020/05/28/camo-beta/):
+
+> Reincubate (tweet, via Joe Cieplinski):
+>
+>> Want to look your best on video calls? The camera on your iPhone or iPad is leagues ahead of any webcam on the market, and Camo makes it easy to use your iPhone as a webcam.
+>
+>> iPhone cameras are getting better whilst webcams get worse. As the Wall Street Journal reported, the 2020 MacBook Air’s camera is worse than the 2010 model. Even the new MacBook Pro only does 720p, which even YouTube doesn’t consider “HD”.
+
+> Great idea. I expect it to get Sherlocked soon.
+
+I have no complaints about my 16" MacBookPro's camera. It is good enough for calls, but definitely lacking for serious video recording.
+
+You can use all the fancy camera filters and effects in FaceTime on iOS but it doesn't work on the Mac. That's a bummer when you want to use Animoji in calls.
