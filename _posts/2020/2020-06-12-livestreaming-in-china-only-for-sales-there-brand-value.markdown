@@ -1,5 +1,5 @@
 ---
-title: Livestreaming in China: for sales or brand value?
+title: "Livestreaming in China: only for sales or is there brand value?"
 author: Jenxi
 layout: post
 tags: [china,livestreaming]
