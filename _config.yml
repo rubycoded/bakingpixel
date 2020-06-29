@@ -43,7 +43,6 @@ facebook:
 twitter:
   username: bakingpixel
   card: summary
-google_analytics: UA-2290635-10
 
 # Build settings
 paginate: 10
