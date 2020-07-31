@@ -1,5 +1,5 @@
 ---
-title: Arm processors: Everything you need to know
+title: "Arm processors: Everything you need to know"
 author: Jenxi
 layout: post
 tags: [apple,arm,intel,cpu]
