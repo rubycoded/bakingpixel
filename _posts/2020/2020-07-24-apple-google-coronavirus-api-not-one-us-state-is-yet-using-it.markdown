@@ -1,5 +1,5 @@
 ---
-title: Apple/Google coronavirus API: not one US state is yet using it
+title: Apple-Google coronavirus API: not one US state is yet using it
 author: Jenxi
 layout: post
 tags: [apple,google,contact tracing]
