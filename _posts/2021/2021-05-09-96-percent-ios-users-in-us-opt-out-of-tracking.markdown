@@ -2,7 +2,7 @@
 title: 96% iOS users in the US opt out of tracking
 author: Jenxi
 layout: post
-tags: [iOS, privacy]
+tags: [ios, privacy]
 ---
 [Flurry](https://www.flurry.com/blog/ios-14-5-opt-in-rate-att-restricted-app-tracking-transparency-worldwide-us-daily-latest-update/):
 
