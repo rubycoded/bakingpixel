@@ -10,29 +10,32 @@ He blogs at [iamjenxi.com](https://iamjenxi.com) and can be found on [Twitter](h
 
 ## Services
 
-  * [1Password](https://agilebits.com/onepassword) &#8211; Password manager
-  * [Things](http://culturedcode.com/things/) &#8211; Task list and planner
-  * [DayOne](https://dayoneapp.com/) &#8211; Journalling on Mac and iOS
-  * [Pocket](https://getpocket.com) &#8211; Bookmarking tool
-  * [Basecamp](https://basecamp.com) &#8211; Project and team management
-  * [Slack](https://slack.com/) &#8211; Team communication platform
-  * <s>[VyprVPN](https://www.goldenfrog.com/vyprvpn) &#8211; Best VPN ever</s> ➡️ Unfortunately VyprVPN has stopped working for me
-  * [Astrill](https://astrill.com) &#8211; VPN service
+  * [1Password](https://agilebits.com/onepassword) - Password manager
+  * [Things](http://culturedcode.com/things/) - Task list and planner
+  * [DayOne](https://dayoneapp.com/) - Journalling on Mac and iOS
+  * <s>[Pocket](https://getpocket.com) - Bookmarking tool</s> - Reading now instead of later
+  * [Basecamp](https://basecamp.com) - Project and team management
+  * [Slack](https://slack.com/) - Team communication platform
+  * <s>[VyprVPN](https://www.goldenfrog.com/vyprvpn) - Best VPN ever</s> ➡️ Unfortunately it stopped working reliably
+  * [Astrill](https://astrill.com) - VPN service
 
 ## iOS apps
 
-  * [TweetBot](https://tapbots.com/tweetbot/) &#8211; Twitter client
-  * [Reeder for iOS](http://www.reederapp.com/ios/) &#8211; RSS feed reader
-  * [VSCO Cam](http://vsco.co/vscocam) &#8211; Quick photo processing
+  * [Bear](https://bear.app) - Writing app synced with Mac via iCloud
+  * [Reeder 5 for iOS](http://www.reederapp.com/ios/) - RSS feed reader
+  * [TweetBot](https://tapbots.com/tweetbot/) - Twitter client
+  * [VSCO Cam](http://vsco.co/vscocam) - Quick photo processing
 
 ## Mac apps
 
-  * [BackBlaze](https://backblaze.com) &#8211; Cloud backup
-  * [Bear](https://bear.app) &#8211; Writing app
-  * [Reeder for Mac](http://www.reederapp.com/mac/) &#8211; RSS feed reader
-  * [TweetBot 3 for Mac](https://tapbots.com/tweetbot/mac/) &#8211; Twitter client
-  * [BBEdit](https://www.barebones.com/products/bbedit/) &#8211; Best text editor ever
-  * [MindNode](https://mindnode.com) &#8211; Mindmapping app
-  * [MarsEdit](https://red-sweater.com/marsedit/) &#8211; Blog editor
-  * [Typinator](http://www.ergonis.com/products/typinator/) &#8211; Text expansion
-  * [Transmit](http://www.panic.com/transmit/) &#8211; FTP app
+  * [BackBlaze](https://backblaze.com) - Cloud backup
+  * [Bear](https://bear.app) - Writing app synced with iOS via iCloud
+  * [Eagle](https://eagle.cool) - Asset organisation, inspiration collection, and mood board app
+  * [Reeder 5 for Mac](http://www.reederapp.com/mac/) - RSS feed reader
+  * [TweetBot 3 for Mac](https://tapbots.com/tweetbot/mac/) - Twitter client
+  * [BBEdit](https://www.barebones.com/products/bbedit/) - Best text editor ever
+  * <s>[MindNode](https://mindnode.com) - Mindmapping app</s> - Replaced by XMind that feels lighter and has a more intuitive UI
+  * [XMind](https://www.xmind.net) - Mindmapping app
+  * <s>[MarsEdit](https://red-sweater.com/marsedit/) - Blog editor</s> - Prefer to draft in Bear and edit directly in the WordPress Gutenberg editor
+  * [Typinator](http://www.ergonis.com/products/typinator/) - Text expansion
+  * [Transmit](http://www.panic.com/transmit/) - FTP app
