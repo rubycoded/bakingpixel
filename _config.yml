@@ -29,10 +29,8 @@ description: >- # this means to ignore newlines until next value
 logo: /images/bakingpixel-button.png
 defaults:
   -
-    scope:
-      path: "" # an empty string here means all files in the project
     values:
-      image: /images/bakingpixel-cover.png
+      image: https://bakingpixel.com/images/bakingpixel-cover.png
 social:
   name: BakingPixel
   links:
