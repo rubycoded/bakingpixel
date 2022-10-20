@@ -43,7 +43,7 @@ facebook:
   logo: https://bakingpixel.com/images/bakingpixel-cover.png
 twitter:
   username: bakingpixel
-  card: summary
+  card: summary_large_image
 
 # Build settings
 paginate: 10
