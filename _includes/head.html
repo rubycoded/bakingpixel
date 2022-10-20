@@ -1,19 +1,37 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  {%- seo -%}
-  <meta property="og:type" content="article" />
-  <meta property="og:image" content="https://bakingpixel.com/images/bakingpixel-cover.png" />
-  <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
-  {%- feed_meta -%}
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
-  <link rel="manifest" href="/images/icons/site.webmanifest">
-  <link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#2a8a15">
-  <link rel="shortcut icon" href="/images/icons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2a8a15">
-  <meta name="msapplication-config" content="/images/icons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">  
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{%- seo -%}
+	<meta property="og:type" content="article" />
+	<meta property="og:image" content="https://bakingpixel.com/images/bakingpixel-cover.png" />
+	<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+	<!-- Twitter cards -->
+	<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+	<meta name="twitter:title"   content="{{ page.title }}">
+
+	{% if page.summary %}
+	<meta name="twitter:description" content="{{ page.summary }}">
+	{% else %}
+	<meta name="twitter:description" content="{{ site.description }}">
+	{% endif %}
+
+	{% if page.image %}
+	<meta name="twitter:card"  content="summary_large_image">
+	<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+	{% else %}
+	<meta name="twitter:card"  content="summary">
+	<meta name="twitter:image" content="https://bakingpixel.com/images/bakingpixel-cover.png">
+	{% endif %}
+	<!-- end of Twitter cards -->
+	{%- feed_meta -%}
+	<link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
+	<link rel="manifest" href="/images/icons/site.webmanifest">
+	<link rel="mask-icon" href="/images/icons/safari-pinned-tab.svg" color="#111">
+	<link rel="shortcut icon" href="/images/icons/favicon.ico">
+	<meta name="msapplication-TileColor" content="#d71a1b">
+	<meta name="msapplication-config" content="/images/icons/browserconfig.xml">
+	<meta name="theme-color" content="#ffffff">  
 </head>
