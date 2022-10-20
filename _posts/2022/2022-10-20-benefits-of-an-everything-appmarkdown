@@ -1,0 +1,28 @@
+---
+title: Benefits of an "everything" app
+author: Jenxi
+layout: post
+tags: [app, kakao, wechat]
+---
+[John Gruber](https://daringfireball.net/linked/2022/10/19/kakao-outage):
+
+> It makes no sense to me why ride-hailing, payments, and messaging would fit together in a single app, but once these things get entrenched, it’s easy to see how they stay entrenched thanks to network effects.
+
+It doesn't make sense until you start using it.
+
+A single app removes the friction of using a standalone app.
+
+Let's say I want to use a ride-hailing app. These are the steps I'll need:
+
+1. Downloading an app
+2. Wait for it to install and then launch it
+3. Sign in or create an account
+4. Verify the account
+5. Link a payment method
+6. Start using the app
+
+I use WeChat instead of Kakao so I can only speak for WeChat. To use a ride-hailing app within WeChat, I'll need to:
+
+1. Search for the mini-program and launch it
+2. Tap to allow the mini-program to log in with your credentials
+3. Start using the mini-program
