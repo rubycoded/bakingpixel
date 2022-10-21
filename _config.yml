@@ -27,6 +27,7 @@ email: contact@bakingpixel.com
 description: >- # this means to ignore newlines until next value
   Baked Fresh. Served in Pixels. BakingPixel is a commentary site run by Matt and Jenxi. They focus on tech and business related news.
 logo: /images/bakingpixel-button.png
+google_analytics: "G-QJ023VBHDT"
 defaults:
   -
     values:
